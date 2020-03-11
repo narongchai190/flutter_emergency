@@ -48,3 +48,11 @@ sendSms() async {
   sendMessage(message, recipient);
 }
 ```
+
+### 💻 Developer
+
+Developed by Isaac [(facebook.com/isaacdarcilla)](https://web.facebook.com/isaacdarcilla)
+
+### ✨ Support
+
+Fork or star this repository for support.
