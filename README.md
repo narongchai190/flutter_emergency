@@ -49,6 +49,10 @@ sendSms() async {
 }
 ```
 
+### 🛠️ Building
+
+To build, visit the Flutter documentation.
+
 ### 💻 Developer
 
 Developed by Isaac [(facebook.com/isaacdarcilla)](https://web.facebook.com/isaacdarcilla)
