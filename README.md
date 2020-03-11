@@ -2,7 +2,8 @@
 
 ### 🔥 Emergency Flutter
 
-Emergency mobile application for fast response built with Flutter
+Emergency mobile application for fast response built with Flutter which uses flutter_sms and geolocator plugins to send 
+messages to responders and determine the location of the sender.
 
 ### 🤘 Getting Started
 
