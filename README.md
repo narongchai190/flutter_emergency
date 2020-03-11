@@ -1,10 +1,10 @@
 <p align="center"><img src="https://miro.medium.com/max/3200/1*ogNimrTnf_COR7ImVFr3-A.png" width="400"></p>
 
-### Emergency Flutter
+### 🔥 Emergency Flutter
 
 Emergency mobile application for fast response built with Flutter
 
-### Getting Started
+### 🤘 Getting Started
 
 This project is a starting point for a Flutter application.
 
@@ -17,9 +17,9 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-### Dependencies
+### 🎈 Dependencies
 
-```java
+```yaml
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
@@ -33,18 +33,17 @@ dependencies:
   device_info: ^0.4.1+1
 ```
 
-### Configuration
+### ⚙️ Configuration
 
 In <code>lib/main.dart</code>, you can customize the recipient and the message.
 
 ```dart
-  sendSms() async {
-    ...
+sendSms() async {
+  ...
     
-    String message = 'An emergency alert was triggered in ${androidInfo.brand} device. Last known location is at $location';
-    debugPrint(message);
-    List<String> recipient = ['09985986027', '09183242541']; //Emergency Hotline Numbers
+  String message = 'An emergency alert was triggered in ${androidInfo.brand} device. Last known location is at $location';
+  List<String> recipient = ['09985986027', '09183242541']; //Emergency Hotline Numbers
     
-    sendMessage(message, recipient);
-  }
+  sendMessage(message, recipient);
+}
 ```
