@@ -30,3 +30,19 @@ dependencies:
   flutter_sms: ^1.1.0
   device_info: ^0.4.1+1
 ```
+
+### Configuration
+
+In <code>lib/main.dart</code>, you can customize the recipient and the message.
+
+```dart
+  sendSms() async {
+    ...
+    
+    String message = 'An emergency alert was triggered in ${androidInfo.brand} device. Last known location is at $location';
+    debugPrint(message);
+    List<String> recipient = ['09985986027', '09183242541']; //Emergency Hotline Numbers
+    
+    sendMessage(message, recipient);
+  }
+```
