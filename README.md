@@ -60,3 +60,5 @@ Developed by Isaac [(facebook.com/isaacdarcilla)](https://web.facebook.com/isaac
 ### ✨ Support
 
 Fork or star this repository for support.
+
+### 🚫 No Scammers
