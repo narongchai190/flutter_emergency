@@ -45,7 +45,7 @@ sendSms() async {
   String message = 'An emergency alert was triggered in ${androidInfo.brand} device. Last known location is at $location';
   List<String> recipient = ['09985986027', '09183242541']; //Emergency Hotline Numbers
     
-  sendMessage(message, recipient);
+  sendMessage(message, recipient); //Send the message
 }
 ```
 
