@@ -36,7 +36,7 @@ dependencies:
 
 In <code>lib/main.dart</code>, you can customize the recipient and the message.
 
-```dart
+```java
 sendSms() async {
   ...
     
