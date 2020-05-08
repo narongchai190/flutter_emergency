@@ -1,6 +1,6 @@
 <p align="center"><img src="https://miro.medium.com/max/3200/1*ogNimrTnf_COR7ImVFr3-A.png" width="400"></p>
 
-### 🔥 Emergency Flutter
+### 🔥 Emergency Notifierer Flutter
 
 Emergency mobile application for fast response built with Flutter which uses flutter_sms and geolocator plugins to send 
 messages to responders and determine the location of the sender.
